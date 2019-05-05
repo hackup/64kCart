@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:64kCart-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -544,39 +545,31 @@ A12
 $Comp
 L Logic_74xx:74LS04 U3
 U 2 1 5CD58869
-P 4150 2650
-F 0 "U3" H 4150 2967 50  0000 C CNN
-F 1 "74LS04" H 4150 2876 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 4150 2650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 4150 2650 50  0001 C CNN
-	2    4150 2650
+P 4150 2600
+F 0 "U3" H 4150 2917 50  0000 C CNN
+F 1 "74LS04" H 4150 2826 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 4150 2600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 4150 2600 50  0001 C CNN
+	2    4150 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Logic_74xx:74LS04 U3
 U 3 1 5CD62C68
-P 4150 3650
-F 0 "U3" H 4150 3967 50  0000 C CNN
-F 1 "74LS04" H 4150 3876 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 4150 3650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 4150 3650 50  0001 C CNN
-	3    4150 3650
+P 4150 3700
+F 0 "U3" H 4150 4017 50  0000 C CNN
+F 1 "74LS04" H 4150 3926 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 4150 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 4150 3700 50  0001 C CNN
+	3    4150 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4450 2650 4600 2650
-Wire Wire Line
-	4600 2650 4600 3050
 Wire Wire Line
 	4600 3050 5350 3050
 Wire Wire Line
 	5350 3150 4450 3150
 Wire Wire Line
-	4600 3650 4600 3250
-Wire Wire Line
 	4600 3250 5350 3250
-Wire Wire Line
-	4450 3650 4600 3650
 $Comp
 L Logic_74xx:74LS173 U2
 U 1 1 5CD19040
@@ -595,17 +588,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 2700 3500 2700
 Wire Wire Line
-	3050 2600 3550 2600
-Wire Wire Line
-	3550 2600 3550 2650
-Wire Wire Line
-	3550 2650 3850 2650
-Wire Wire Line
 	3050 2800 3450 2800
-Wire Wire Line
-	3450 2800 3450 3650
-Wire Wire Line
-	3450 3650 3850 3650
 $Comp
 L Logic_74xx:74LS04 U3
 U 5 1 5CDA9E7B
@@ -859,6 +842,30 @@ Wire Wire Line
 Connection ~ 1200 4100
 Wire Wire Line
 	1200 4750 1200 4900
+Text Label 8650 2750 2    50   ~ 0
+EXROM
+Text Label 8650 2550 2    50   ~ 0
+IO1
+Text Label 8650 2950 2    50   ~ 0
+ROML
+Text Label 1800 3100 2    50   ~ 0
+EXROM
+Text Label 1700 3200 2    50   ~ 0
+IO1
+Wire Wire Line
+	3450 3700 3850 3700
+Wire Wire Line
+	3450 2800 3450 3700
+Wire Wire Line
+	4450 3700 4600 3700
+Wire Wire Line
+	4600 3250 4600 3700
+Wire Wire Line
+	3050 2600 3850 2600
+Wire Wire Line
+	4450 2600 4600 2600
+Wire Wire Line
+	4600 2600 4600 3050
 Wire Bus Line
 	1850 1350 1850 2800
 Wire Bus Line

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name 64kCart)(type KiCad)(uri ${KIPRJMOD}/lib/64kCart.pretty)(options "")(descr ""))
+)

@@ -820,7 +820,7 @@ L Switch:SW_Push SW1
 U 1 1 5CE92746
 P 1200 4550
 F 0 "SW1" V 1154 4698 50  0000 L CNN
-F 1 "SW_Push" V 1245 4698 50  0000 L CNN
+F 1 "Reset" V 1245 4698 50  0000 L CNN
 F 2 "Buttons_Switches_THT:SW_Tactile_SPST_Angled_PTS645Vx83-2LFS" H 1200 4750 50  0001 C CNN
 F 3 "~" H 1200 4750 50  0001 C CNN
 	1    1200 4550
@@ -869,12 +869,12 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5CD49171
-P 875 7375
-F 0 "H1" H 975 7421 50  0000 L CNN
-F 1 "MountingHole" H 975 7330 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_5mm" H 875 7375 50  0001 C CNN
-F 3 "~" H 875 7375 50  0001 C CNN
-	1    875  7375
+P 950 7350
+F 0 "H1" H 1050 7396 50  0000 L CNN
+F 1 "MountingHole" H 1050 7305 50  0000 L CNN
+F 2 "64kCart:MountingHole_CartCombined" H 950 7350 50  0001 C CNN
+F 3 "~" H 950 7350 50  0001 C CNN
+	1    950  7350
 	1    0    0    -1  
 $EndComp
 Wire Bus Line

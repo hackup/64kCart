@@ -1,4 +1,4 @@
-update=05/05/2019 22:55:25
+update=06/05/2019 21:28:42
 version=1
 last_client=kicad
 [general]
@@ -21,7 +21,7 @@ BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
-ProhibitOverlappingCourtyards=1
+ProhibitOverlappingCourtyards=0
 MinTrackWidth=0.2
 MinViaDiameter=0.4
 MinViaDrill=0.3
@@ -62,7 +62,7 @@ SolderPasteRatio=-0
 [pcbnew/Netclasses/1]
 Name=Power
 Clearance=0.3
-TrackWidth=0.4
+TrackWidth=0.5
 ViaDiameter=1
 ViaDrill=0.5
 uViaDiameter=0.3

@@ -5,13 +5,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "64k Cart Remix"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Rev "Rev.1"
+Comp "hackup.net"
+Comment1 "Based on the original \"64k Karte\" design by Hucky"
+Comment2 "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License."
+Comment3 "This work is licensed under a"
 Comment4 ""
 $EndDescr
 $Comp
@@ -770,51 +770,51 @@ $EndComp
 $Comp
 L device:R R2
 U 1 1 5CE6B617
-P 7800 5400
-F 0 "R2" H 7870 5446 50  0000 L CNN
-F 1 "330" H 7870 5355 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7730 5400 50  0001 C CNN
-F 3 "~" H 7800 5400 50  0001 C CNN
-	1    7800 5400
+P 7950 5525
+F 0 "R2" H 8020 5571 50  0000 L CNN
+F 1 "330" H 8020 5480 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7880 5525 50  0001 C CNN
+F 3 "~" H 7950 5525 50  0001 C CNN
+	1    7950 5525
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0116
 U 1 1 5CE6BAE1
-P 7800 5250
-F 0 "#PWR0116" H 7800 5100 50  0001 C CNN
-F 1 "VCC" H 7817 5423 50  0000 C CNN
-F 2 "" H 7800 5250 50  0001 C CNN
-F 3 "" H 7800 5250 50  0001 C CNN
-	1    7800 5250
+P 7950 5375
+F 0 "#PWR0116" H 7950 5225 50  0001 C CNN
+F 1 "VCC" H 7967 5548 50  0000 C CNN
+F 2 "" H 7950 5375 50  0001 C CNN
+F 3 "" H 7950 5375 50  0001 C CNN
+	1    7950 5375
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:LED D1
 U 1 1 5CE72C00
-P 7800 5750
-F 0 "D1" V 7839 5633 50  0000 R CNN
-F 1 "LED" V 7748 5633 50  0000 R CNN
-F 2 "LEDs:LED_D5.0mm" H 7800 5750 50  0001 C CNN
-F 3 "~" H 7800 5750 50  0001 C CNN
-	1    7800 5750
+P 7950 5875
+F 0 "D1" V 7989 5758 50  0000 R CNN
+F 1 "LED" V 7898 5758 50  0000 R CNN
+F 2 "LEDs:LED_D3.0mm" H 7950 5875 50  0001 C CNN
+F 3 "~" H 7950 5875 50  0001 C CNN
+	1    7950 5875
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0117
 U 1 1 5CE7311F
-P 7800 6000
-F 0 "#PWR0117" H 7800 5750 50  0001 C CNN
-F 1 "GND" H 7805 5827 50  0000 C CNN
-F 2 "" H 7800 6000 50  0001 C CNN
-F 3 "" H 7800 6000 50  0001 C CNN
-	1    7800 6000
+P 7950 6125
+F 0 "#PWR0117" H 7950 5875 50  0001 C CNN
+F 1 "GND" H 7955 5952 50  0000 C CNN
+F 2 "" H 7950 6125 50  0001 C CNN
+F 3 "" H 7950 6125 50  0001 C CNN
+	1    7950 6125
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7800 5600 7800 5550
+	7950 5725 7950 5675
 Wire Wire Line
-	7800 6000 7800 5900
+	7950 6125 7950 6025
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5CE92746
@@ -866,6 +866,17 @@ Wire Wire Line
 	4450 2600 4600 2600
 Wire Wire Line
 	4600 2600 4600 3050
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5CD49171
+P 875 7375
+F 0 "H1" H 975 7421 50  0000 L CNN
+F 1 "MountingHole" H 975 7330 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_5mm" H 875 7375 50  0001 C CNN
+F 3 "~" H 875 7375 50  0001 C CNN
+	1    875  7375
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	1850 1350 1850 2800
 Wire Bus Line

@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 13)
+    (drawings 14)
     (tracks 346)
     (zones 0)
     (modules 11)
@@ -796,7 +796,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5CE72C00)
-    (fp_text reference D1 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D1 (at 1.27 2.794) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -849,6 +849,9 @@
     (pad "" np_thru_hole circle (at 0 -3) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   )
 
+  (gr_text + (at 126.365 90.678) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text "64kCart Remix 2019 Rev.1 - https://www.hackup.net\nBased on the original \"64k Karte\" design by Hucky." (at 160.5915 127.762) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
   )

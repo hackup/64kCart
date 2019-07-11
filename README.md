@@ -2,6 +2,8 @@
 
 The 64kCart is a simple bank switching cartridge for the C64/C128. It is a remake of the ["64k-Karte"](http://www.idealine.info/emuecke/index_quereinstieg.htm?/emuecke/hardware/64k_modulkart.htm) created by Hucky which supports EPROM types 2764 up to 27512.
 
+There is also no warranty whatsoever. **USE AT YOUR OWN RISK!**.
+
 ![64kCart Rev.1 Front](media/64kCart-rev1-front.jpg)
 
 
